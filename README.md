@@ -17,6 +17,9 @@ Developed a personalized movie recommendation system leveraging the Surprise lib
 
 Developed a customer service chatbot leveraging Large Language Models (LLMs) like BERT and techniques such as Named Entity Recognition (NER) and Question Answering (QA). The bot scrapes Stack Overflow for relevant data, uses NLP to understand and process queries, and delivers precise, context-driven responses, improving support efficiency and user satisfaction.
 
+### [Project 3: Extended OCaml API Diffing Algorithm for Class Addition/Removal](https://github.com/ocaml-semver/ocaml-api-watch)
+Contributed to enhancing the OCaml API diffing algorithm during the Outreachy program by adding support for class addition and removal. Developed unit tests for this feature and implemented CRAM tests for end-to-end API testing. This feature has now been successfully merged into the latest version, making it available for consumption by other developers, even though the project wasn't selected for continued development.
+
 
 
 
