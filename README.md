@@ -4,9 +4,9 @@ Welcome to my Machine Learning and AI portfolio! This repository showcases vario
 
 ## Skills:
 - Programming Languages: Python
-- Libraries: TensorFlow, Keras, PyTorch, scikit-learn, pandas, NumPy
+- Libraries: TensorFlow, Keras, PyTorch, scikit-learn, hugging face(transformers), pandas, NumPy
 - Tools: Jupyter Notebooks, Google Colab, Docker, Git
-- Other: Data Visualization (Matplotlib, Seaborn), Model Deployment (Flask, Streamlit)
+- Other: Data Visualization (Matplotlib, Seaborn), Model Deployment (Flask, aws), Hugging Faces
 
 ## Featured Projects:
 ### [Project 1: Movie Recommendation System using the MovieLens Dataset](https://github.com/marcndo/movie-recommendation)
