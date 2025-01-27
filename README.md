@@ -36,15 +36,15 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
  - Data Analysis and Visualization: pandas, NumPy, SciPy, Matplotlib, Seaborn.
  - Algorithms:Sorting, Searching, Graph Traversal, Dynamic Programming.
  - Machine Learning | AI 
-   - Skills.
+  - Skills.
     * Data Preprocessing (cleaning and transforming raw data into usable formats).
-     * Model Design (creating and selecting models like regression, classification, clustering).
+    * Model Design (creating and selecting models like regression, classification, clustering).
     * Training and Testing (evaluating model performance using techniques like cross-validation).
-   - Frameworks.
+  - Frameworks.
      * IBM WATSON
      * Hugging Faces/Transformers/LLMs/Foundation Models.
      * Flask.
-   - Libraries.
+  - Libraries.
     * Scikit-learn.
     * TensorFlow.
     * PyTorch.
