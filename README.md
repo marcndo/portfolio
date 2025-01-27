@@ -35,7 +35,7 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
  - Data Structures: Arrays, Linked Lists, Trees, Graphs (used for efficient data manipulation in ML algorithms).
  - Data Analysis and Visualization: pandas, NumPy, SciPy, Matplotlib, Seaborn.
  - Algorithms:Sorting, Searching, Graph Traversal, Dynamic Programming.
- - Machine Learning
+ - Machine Learning | AI 
    - Skills.
     * Data Preprocessing (cleaning and transforming raw data into usable formats).
      * Model Design (creating and selecting models like regression, classification, clustering).
@@ -44,7 +44,7 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
      * IBM WATSON
      * Hugging Faces/Transformers/LLMs/Foundation Models.
      * Flask.
-   -Libraries.
+   - Libraries.
     * Scikit-learn.
     * TensorFlow.
     * PyTorch.
