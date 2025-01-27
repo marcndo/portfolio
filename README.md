@@ -13,26 +13,52 @@ Alongside my technical skills, I bring practical experience from my previous rol
 Whether you're looking for someone to build predictive models, design intelligent systems, or work with generative AI, I’m ready to bring my skills and enthusiasm to your team.
 
 Explore my projects and let’s connect to discuss how I can contribute to building the future of technology!
-## Skills:
- - Programming Languages: Python
- - Libraries: TensorFlow, Keras, PyTorch, scikit-learn, hugging face(transformers), pandas, NumPy
- - Tools: Jupyter Notebooks, Google Colab, Docker, Git
- - Other: Data Visualization (Matplotlib, Seaborn), Model Deployment (Flask, aws), Hugging Faces
 
 ## Featured Projects:
- ### [Project 1: Movie Recommendation System using the MovieLens Dataset](https://github.com/marcndo/movie-recommendation)
+ ### [Project 1: Movie Recommendation System using the MovieLens Dataset](https://github.com/marcndo/movie-recommendation) -- Deployment.
 
 Developed a personalized movie recommendation system leveraging the Surprise library to analyze and predict user preferences based on the popular MovieLens dataset. The system uses collaborative filtering techniques to provide accurate, data-driven movie recommendations tailored to individual tastes, enhancing user experience and engagement.
 
- ### [Project 2: AI-Powered Customer Service Chatbot with LLMs](https://github.com/marcndo/customer-service-chatbot)
+ ### [Project 2: AI-Powered Customer Service Chatbot with LLMs](https://github.com/marcndo/customer-service-chatbot) -- in progress.
 
 Developed a customer service chatbot leveraging Large Language Models (LLMs) like BERT and techniques such as Named Entity Recognition (NER) and Question Answering (QA). The bot scrapes Stack Overflow for relevant data, uses NLP to understand and process queries, and delivers precise, context-driven responses, improving support efficiency and user satisfaction.
 
- ### [Project 3: Extended OCaml API Diffing Algorithm for Class Addition/Removal](https://github.com/ocaml-semver/ocaml-api-watch)
+ ### [Project 3: Extended OCaml API Diffing Algorithm for Class Addition/Removal](https://github.com/ocaml-semver/ocaml-api-watch) --completed.
 Contributed to enhancing the OCaml API diffing algorithm during the Outreachy program by adding support for class addition and removal. Developed unit tests for this feature and implemented CRAM tests for end-to-end API testing. This feature has now been successfully merged into the latest version, making it available for consumption by other developers, even though the project wasn't selected for continued development.
 
-## Customer Support Engineer (Contingent) | SolarWinds | Remote.
+## Skills:
+ _ Mathematical Foundations for Machine Learning:
+  * Linear Algebra.
+  * Calculus
+  * Probability and Statistics.
+ - Programming Languages: Python, C.
+ - Data Structures: Arrays, Linked Lists, Trees, Graphs (used for efficient data manipulation in ML algorithms).
+ - Data Analysis and Visualization: pandas, NumPy, SciPy, Matplotlib, Seaborn.
+ - Algorithms:Sorting, Searching, Graph Traversal, Dynamic Programming.
+ - Machine Learning
+   - Skills.
+    * Data Preprocessing (cleaning and transforming raw data into usable formats).
+    * Model Design (creating and selecting models like regression, classification, clustering).
+    * Training and Testing (evaluating model performance using techniques like cross-validation).
+   - Frameworks.
+     * IBM WATSON
+     * Hugging Faces/Transformers/LLMs/Foundation Models.
+   -Libraries.
+    * Scikit-learn.
+    * TensorFlow.
+    * PyTorch.
+    * JAX.
+    * Surprise.
+    * NLTK.
+ - Libraries: TensorFlow, Keras, PyTorch, scikit-learn, hugging face(transformers), 
+ - Tools: Jupyter Notebooks, Google Colab, Docker, Git, Jira
+ - Other: Data Visualization (Matplotlib, Seaborn), Model Deployment (Flask, aws), Hugging Faces
 
+## Certifications.
+ * [IBM Generative Engineering professional Certificate](https://coursera.org/share/2b9b15469e15c5121efbb4a201a786ce) - December 30, 2024
+ * [IBM Machine Learning Professional Certificate](https://coursera.org/share/ed684d367dff529dcdb4c1a9763aaf4a) - June 2024
+
+## Customer Support Engineer (Contingent) | SolarWinds | Remote.
 ### December 2022 – February 2024
  * Provided technical support for SolarWinds' suite of IT management and monitoring tools, assisting clients in troubleshooting complex issues related to network performance, security, and server management.
  * Collaborated with cross-functional teams to resolve product issues, ensuring customer satisfaction while maintaining high service levels.
@@ -44,8 +70,6 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
  * Problem-solving & troubleshooting: Analyzed complex systems and identified patterns, which are crucial for designing and optimizing machine learning algorithms.
  * Technical proficiency: Experience with IT systems, databases, and performance metrics is valuable for managing data workflows and optimizing AI models.
  * Collaboration & communication: Effectively communicated technical concepts and worked with teams, a key asset in collaborative AI/ML projects.
-
-
 
 ## Education Overview
  ### Bachelor's in [Mathematics]
@@ -66,11 +90,6 @@ My undergraduate studies provided a strong foundation in both mathematics and co
         - Introduction to Computer Science: Logic Gates, Boolean Algebra etc. 
 
 This blend of theoretical and practical knowledge has equipped me with the skills needed to approach complex computational problems and implement efficient solutions in machine learning and software development.
-
-## Certifications.
- * [IBM Generative Engineering professional Certificate](https://coursera.org/share/2b9b15469e15c5121efbb4a201a786ce) - December 30, 2024
- * [IBM Machine Learning Professional Certificate](https://coursera.org/share/ed684d367dff529dcdb4c1a9763aaf4a) - June 2024
-
 
 
 ## Contact
