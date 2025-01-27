@@ -1,4 +1,4 @@
-# Machine Learning / AI Portfolio - MARCEL AMBO NDOWAH.
+# Machine Learning / AI Portfolio - MARCEL AMBO NDOWAH
 
 Welcome to my Machine Learning and AI portfolio! This repository showcases various projects I have worked on, ranging from predictive models to deep learning systems.
 
