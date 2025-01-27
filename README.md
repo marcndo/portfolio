@@ -28,9 +28,9 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
 
 ## Skills:
  - Mathematical Foundations for Machine Learning:
-  * Linear Algebra.
-  * Calculus
-  * Probability and Statistics.
+   * Linear Algebra.
+   * Calculus.
+   * Probability and Statistics.
  - Programming Languages: Python, C.
  - Data Structures: Arrays, Linked Lists, Trees, Graphs (used for efficient data manipulation in ML algorithms).
  - Data Analysis and Visualization: pandas, NumPy, SciPy, Matplotlib, Seaborn.
@@ -41,7 +41,7 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
     * Model Design (creating and selecting models like regression, classification, clustering).
     * Training and Testing (evaluating model performance using techniques like cross-validation).
   - Frameworks.
-     * IBM WATSON
+     * IBM WATSON.
      * Hugging Faces/Transformers/LLMs/Foundation Models.
      * Flask.
   - Libraries.
