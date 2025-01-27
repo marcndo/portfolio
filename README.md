@@ -15,7 +15,7 @@ Whether you're looking for someone to build predictive models, design intelligen
 Explore my projects and let’s connect to discuss how I can contribute to building the future of technology!
 
 ## Featured Projects:
- ### [Project 1: Movie Recommendation System using the MovieLens Dataset](https://github.com/marcndo/movie-recommendation) -- Deployment.
+ ### [Project 1: Movie Recommendation System using the MovieLens Dataset](https://github.com/marcndo/movie-recommendation) -- Deployment in progress.
 
 Developed a personalized movie recommendation system leveraging the Surprise library to analyze and predict user preferences based on the popular MovieLens dataset. The system uses collaborative filtering techniques to provide accurate, data-driven movie recommendations tailored to individual tastes, enhancing user experience and engagement.
 
