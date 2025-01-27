@@ -93,5 +93,5 @@ This blend of theoretical and practical knowledge has equipped me with the skill
 
 
 ## Contact
- - Email: ndowahmarcel@gmail.com)
+ - Email: ndowahmarcel@gmail.com
  - [LinkedIn](https://www.linkedin.com/in/marcelndowah/)
