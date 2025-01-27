@@ -27,7 +27,7 @@ Developed a customer service chatbot leveraging Large Language Models (LLMs) lik
 Contributed to enhancing the OCaml API diffing algorithm during the Outreachy program by adding support for class addition and removal. Developed unit tests for this feature and implemented CRAM tests for end-to-end API testing. This feature has now been successfully merged into the latest version, making it available for consumption by other developers, even though the project wasn't selected for continued development.
 
 ## Skills:
- _ Mathematical Foundations for Machine Learning:
+ - Mathematical Foundations for Machine Learning:
   * Linear Algebra.
   * Calculus
   * Probability and Statistics.
@@ -38,28 +38,28 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
  - Machine Learning
    - Skills.
     * Data Preprocessing (cleaning and transforming raw data into usable formats).
-    * Model Design (creating and selecting models like regression, classification, clustering).
+     * Model Design (creating and selecting models like regression, classification, clustering).
     * Training and Testing (evaluating model performance using techniques like cross-validation).
    - Frameworks.
      * IBM WATSON
      * Hugging Faces/Transformers/LLMs/Foundation Models.
+     * Flask.
    -Libraries.
     * Scikit-learn.
     * TensorFlow.
     * PyTorch.
     * JAX.
+    * Keras
     * Surprise.
     * NLTK.
- - Libraries: TensorFlow, Keras, PyTorch, scikit-learn, hugging face(transformers), 
- - Tools: Jupyter Notebooks, Google Colab, Docker, Git, Jira
- - Other: Data Visualization (Matplotlib, Seaborn), Model Deployment (Flask, aws), Hugging Faces
+   - Tools: Jupyter Notebooks, Google Colab, Git, Jira
 
 ## Certifications.
  * [IBM Generative Engineering professional Certificate](https://coursera.org/share/2b9b15469e15c5121efbb4a201a786ce) - December 30, 2024
  * [IBM Machine Learning Professional Certificate](https://coursera.org/share/ed684d367dff529dcdb4c1a9763aaf4a) - June 2024
 
 ## Customer Support Engineer (Contingent) | SolarWinds | Remote.
-### December 2022 – February 2024
+ ### December 2022 – February 2024
  * Provided technical support for SolarWinds' suite of IT management and monitoring tools, assisting clients in troubleshooting complex issues related to network performance, security, and server management.
  * Collaborated with cross-functional teams to resolve product issues, ensuring customer satisfaction while maintaining high service levels.
     Gained valuable experience in system monitoring, incident management, and problem-solving—skills directly transferable to analyzing data and identifying patterns in machine learning and AI projects.
@@ -83,7 +83,7 @@ My undergraduate studies provided a strong foundation in both mathematics and co
         - Probability and Statistics: Understanding uncertainty, data analysis, and probabilistic models.
         - Discrete Mathematics: Essential for algorithms, graph theory, and logical problem solving.
 
- * Computer Science:
+  * Computer Science:
         - Python Programming: Proficient in Python, with hands-on experience in data analysis, APIs development, and machine learning.
         - C Programming: Solid understanding of system-level programming and memory management.
         - Data Structures and Algorithms: In-depth knowledge of fundamental data structures (e.g., arrays, hash tables, linked lists, trees) and algorithms (e.g., searching, sorting, dynamic programming), programming paradigms.
