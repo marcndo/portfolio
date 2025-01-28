@@ -72,7 +72,7 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
  * Collaboration & communication: Effectively communicated technical concepts and worked with teams, a key asset in collaborative AI/ML projects.
 
 ## Education Overview
- ### Bachelor's in Mathematics.
+ ### Bachelor in Mathematics.
  ### [University of Buea](https://www.ubuea.cm/) 20217 – 2020
 
 My undergraduate studies provided a strong foundation in both mathematics and computer science, with a focus on:
