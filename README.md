@@ -55,7 +55,7 @@ Contributed to enhancing the OCaml API diffing algorithm during the Outreachy pr
    - Tools: Jupyter Notebooks, Google Colab, Git, Jira
 
 ## Certifications.
- * [IBM Generative Engineering professional Certificate](https://coursera.org/share/2b9b15469e15c5121efbb4a201a786ce) - December 30, 2024
+ * [IBM Generative Engineering professional Certificate](https://coursera.org/share/2b9b15469e15c5121efbb4a201a786ce) - December 2024
  * [IBM Machine Learning Professional Certificate](https://coursera.org/share/ed684d367dff529dcdb4c1a9763aaf4a) - June 2024
 
 ## Customer Support Engineer (Contingent) | SolarWinds | Remote.
