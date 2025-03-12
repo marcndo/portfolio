@@ -24,6 +24,11 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning Engineer** with
 ### **Machine Learning Projects**
 
 
-## Contact
+## 🌍 Let's Connect!
  - Email: ndowahmarcel@gmail.com
  - [LinkedIn](https://www.linkedin.com/in/marcelndowah/)
+
+## 🏆 Achievements
++ **IBM Machine Learning Professional Certificate** - Completed hands-on projects on data preprocessing, model building, and evaluation.
++ **Generative AI Professional Certificate** - Explored the foundational concepts of AI, including generative models like GANs and the basics of deep learning.
++ **Support Engineer Experience** - Gained valuable insights into troubleshooting and optimizing complex software, and learned to effectively communicate technical information to clients.
