@@ -1,6 +1,6 @@
 # Hi there, I'm MARCEL AMBO NDOWAH 👋
 
-Welcome to my GitHub profile! I'm an aspiring **Machine Learning Engineer** with a **Mathematics background** and a passion for artificial intelligence. I’m actively exploring opportunities to start my career in **Machine Learning** and **AI**, bringing my strong analytical, problem-solving, and mathematical skills to the table.
+Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** with a **Mathematics background** and a passion for artificial intelligence. I’m actively exploring opportunities to start my career in **Machine Learning** and **AI**, bringing my strong analytical, problem-solving, and mathematical skills to the table.
 
 ## 🧑‍💻 About Me.
 + **Bachelor's degree in Mathematics** with a solid understanding of concepts like calculus, linear algebra, statistics, and discrete mathematics.
