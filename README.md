@@ -36,7 +36,7 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning Engineer** with
 ---
 
 ## 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=marcndo&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
 
 ## ⚡ Fun Facts
 
