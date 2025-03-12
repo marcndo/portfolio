@@ -9,14 +9,19 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning Engineer** with
 + Taking courses like **Mathematics for Machine Learning** and **Discrete Mathematics for Computer Science** to deepen my understanding of how math drives machine learning algorithms.
 + One year of experience as a **Support Engineer** at **SolarWinds**, where I developed problem-solving skills, worked with clients, and learned how to troubleshoot and optimize software solutions.
 + Currently learning more about **deep learning**, **data science**, and **AI frameworks** like TensorFlow and PyTorch.
+---
 
-  ## 🚀 Skills & Technologies
-  + **Programming Languages**: Python, SQL, Bash
-  + **Machine Learning Libraries**: Scikit-Learn, TensorFlow, Keras, PyTorch
-  + **Mathematical Tools**: Numpy, Pandas, Matplotlib
-  + **Mathematics**: Linear Algebra, Calculus, Probability & Statistics, Optimization
-  + **Tools**: Jupyter Notebooks, Git, Docker, AWS
-  + **Soft Skills**: Problem-Solving, Analytical Thinking, Communication, Team Collaboration
+## 🚀 Skills & Technologies
++ **Programming Languages**: Python, SQL, Bash
++ **Machine Learning Libraries**: Scikit-Learn, TensorFlow, Keras, PyTorch
++ **Mathematical Tools**: Numpy, Pandas, Matplotlib
++ **Mathematics**: Linear Algebra, Calculus, Probability & Statistics, Optimization
++ **Tools**: Jupyter Notebooks, Git, Docker, AWS
++ **Soft Skills**: Problem-Solving, Analytical Thinking, Communication, Team Collaboration
+
+## 📚 Projects & Repositories
+
+### **Machine Learning Projects**
 
 
 ## Contact
