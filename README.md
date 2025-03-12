@@ -18,17 +18,29 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning Engineer** with
 + **Mathematics**: Linear Algebra, Calculus, Probability & Statistics, Optimization
 + **Tools**: Jupyter Notebooks, Git, Docker, AWS
 + **Soft Skills**: Problem-Solving, Analytical Thinking, Communication, Team Collaboration
+---
 
 ## 📚 Projects & Repositories
 
 ### **Machine Learning Projects**
 
-
 ## 🌍 Let's Connect!
  - Email: ndowahmarcel@gmail.com
  - [LinkedIn](https://www.linkedin.com/in/marcelndowah/)
+---
 
 ## 🏆 Achievements
 + **IBM Machine Learning Professional Certificate** - Completed hands-on projects on data preprocessing, model building, and evaluation.
 + **Generative AI Professional Certificate** - Explored the foundational concepts of AI, including generative models like GANs and the basics of deep learning.
 + **Support Engineer Experience** - Gained valuable insights into troubleshooting and optimizing complex software, and learned to effectively communicate technical information to clients.
+---
+
+## 📈 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
+
+## ⚡ Fun Facts
+
+---
+
+Thank you for checking out my GitHub profile! Feel free to explore my projects, and don’t hesitate to reach out if you're interested in collaborating or discussing opportunities in machine learning and AI.
+
