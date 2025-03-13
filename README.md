@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 + Completed the **IBM Machine Learning** and **Generative AI Professional Certificate** on Coursera, where I gained hands-on experience in building machine learning models and understanding the principles of generative AI.
 + Taking courses like **Mathematics for Machine Learning** and **Discrete Mathematics for Computer Science** to deepen my understanding of how math drives machine learning algorithms.
 + One year of experience as a **Support Engineer** at **SolarWinds**, where I developed problem-solving skills, worked with clients, and learned how to troubleshoot and optimize software solutions.
-+ Currently learning more about **deep learning**, **data science**, and **AI frameworks** like TensorFlow and PyTorch.
++ Currently deepening knowledge in deep learning, data science, and AI frameworks like TensorFlow and PyTorch, while implementing and experimenting with machine learning algorithms to gain a deeper understanding of their workings.
 ---
 
 ## 🚀 Skills & Technologies
