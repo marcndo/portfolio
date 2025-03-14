@@ -11,12 +11,12 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 ---
 
 ## 🚀 Skills & Technologies
-+ **Programming Languages**: Python, SQL, Bash
-+ **Machine Learning Libraries**: Scikit-Learn, TensorFlow, Keras, PyTorch
++ **Programming Languages**: Python, SQL, Bash.
++ **Machine Learning Libraries**: Scikit-Learn, TensorFlow, Keras, PyTorch.
 + **Mathematical Tools**: Numpy, Pandas, Matplotlib
-+ **Mathematics**: Linear Algebra, Calculus, Probability & Statistics, Optimization
-+ **Tools**: Jupyter Notebooks, Git, Docker, AWS
-+ **Soft Skills**: Problem-Solving, Analytical Thinking, Communication, Team Collaboration
++ **Mathematics**: Linear Algebra, Calculus, Probability & Statistics, Optimization.
++ **Tools**: Jupyter Notebooks, Git, Docker, AWS.
++ **Soft Skills**: Problem-Solving, Analytical Thinking, Communication, Team Collaboration.
 ---
 
 ## 📚 Projects & Repositories
