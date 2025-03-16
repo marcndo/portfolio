@@ -24,6 +24,7 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 + [Movie Recommendations](https://github.com/marcndo/movie-recommendation)
 + [Data Structures and Algorithms](https://github.com/marcndo/algo_ds_playground)
 + [Machine Learning Foundation](https://github.com/marcndo/ml_foundation)
++ [Student Performance](https://github.com/marcndo/ML_IBM/blob/main/EDA/student_performance.ipynb)
 
 ### **Machine Learning Projects**
 
