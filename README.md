@@ -45,7 +45,7 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 ##  Fun Facts
 + I love cycling and exploring nature in my free time.
 + I enjoy solving logic puzzles and engaging in creative thinking that challenges my problem-solving skills, leveraging my mathematical background to tackle complex problems.
-+ 🔍 In general, I love tackling challenging problems that stretch my thinking and allow me to apply my analytical skills to find solutions.
++ In general, I love tackling challenging problems that stretch my thinking and allow me to apply my analytical skills to find solutions.
 ---
 
 Thank you for checking out my GitHub profile! Feel free to explore my projects, and don’t hesitate to reach out if you're interested in collaborating or discussing opportunities in machine learning and AI.
