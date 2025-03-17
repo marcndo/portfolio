@@ -42,9 +42,9 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 ## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=marcndo&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
 
-## ⚡ Fun Facts
-+ 🚴 I love cycling and exploring nature in my free time.
-+ 🧠 I enjoy solving logic puzzles and engaging in creative thinking that challenges my problem-solving skills, leveraging my mathematical background to tackle complex problems.
+##  Fun Facts
++ I love cycling and exploring nature in my free time.
++ I enjoy solving logic puzzles and engaging in creative thinking that challenges my problem-solving skills, leveraging my mathematical background to tackle complex problems.
 + 🔍 In general, I love tackling challenging problems that stretch my thinking and allow me to apply my analytical skills to find solutions.
 ---
 
