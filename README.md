@@ -38,6 +38,9 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 + **Generative AI Professional Certificate** - Explored the foundational concepts of AI, including generative models like GANs and the basics of deep learning.
 + **Support Engineer Experience** - Gained valuable insights into troubleshooting and optimizing complex software, and learned to effectively communicate technical information to clients.
 ---
+## Blog
+[Student performance data analysis](https://medium.com/@ndowahmarcel/how-lifestyle-choices-affect-student-performance-a-data-driven-analysis-a6f53c912c1a)
+---
 
 ## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=marcndo&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
