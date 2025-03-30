@@ -20,6 +20,7 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 ---
 
 ## 📚 Projects & Repositories
++ [House Price Prediction](https://github.com/marcndo/ml_foundation/tree/main/SupervisedML/regression)
 + [Document Query](https://github.com/marcndo/AskDocs)
 + [Movie Recommendations](https://github.com/marcndo/movie-recommendation)
 + [Data Structures and Algorithms](https://github.com/marcndo/algo_ds_playground)
