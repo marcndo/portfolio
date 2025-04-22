@@ -41,8 +41,8 @@ Welcome to my GitHub profile! I'm an aspiring **Machine Learning/AI engineer** w
 + **Support Engineer Experience** - Gained valuable insights into troubleshooting and optimizing complex software, and learned to effectively communicate technical information to clients.
 ---
 ## Blog
-#### [Student performance data analysis](https://medium.com/@ndowahmarcel/how-lifestyle-choices-affect-student-performance-a-data-driven-analysis-a6f53c912c1a)
-#### [JAX Customer Support Agent](https://medium.com/@ndowahmarcel/jax-documentation-assistant-how-i-built-a-genai-powered-dev-companion-5afc167a2ad3)
++ [Student performance data analysis](https://medium.com/@ndowahmarcel/how-lifestyle-choices-affect-student-performance-a-data-driven-analysis-a6f53c912c1a)
++ [JAX Customer Support Agent](https://medium.com/@ndowahmarcel/jax-documentation-assistant-how-i-built-a-genai-powered-dev-companion-5afc167a2ad3)
 ---
 
 ## 📈 GitHub Stats
