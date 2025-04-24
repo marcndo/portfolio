@@ -1,37 +1,60 @@
-body {
-    font-family: 'Segoe UI', sans-serif;
+/* Global Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #fefefe;
-    color: #333;
-    line-height: 1.6;
+    box-sizing: border-box;
   }
   
-  header {
-    background-color: #0f172a;
-    color: #fff;
-    padding: 2rem;
-    text-align: center;
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6fa;
+    color: #1f2937;
+    line-height: 1.7;
   }
   
-  main {
-    padding: 2rem;
+  /* Container */
+  .container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
   }
   
-  h1, h2 {
+  /* Headings */
+  h1 {
+    font-size: 2rem;
     color: #0f172a;
+    margin-bottom: 10px;
   }
   
-  a {
-    color: #2563eb;
-    text-decoration: none;
+  h2 {
+    font-size: 1.4rem;
+    color: #1d4ed8;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #93c5fd;
+    padding-bottom: 4px;
   }
   
-  footer {
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-    background-color: #f1f5f9;
-    margin-top: 2rem;
+  /* Paragraphs and Lists */
+  p {
+    margin-bottom: 12px;
+    color: #374151;
+  }
+  
+  ul {
+    padding-left: 20px;
+    color: #374151;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Section Spacing */
+  section {
+    margin-bottom: 30px;
   }
   
