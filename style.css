@@ -1,60 +1,49 @@
-/* Global Reset */
-* {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f7fa;
+    color: #2b2b2b;
   }
   
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6fa;
-    color: #1f2937;
-    line-height: 1.7;
-  }
-  
-  /* Container */
   .container {
-    max-width: 850px;
+    max-width: 900px;
     margin: 40px auto;
-    padding: 20px 30px;
+    padding: 0 20px;
     background-color: #ffffff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   }
   
-  /* Headings */
+  h1, h2 {
+    color: #0a6b8a;
+  }
+  
   h1 {
-    font-size: 2rem;
-    color: #0f172a;
+    font-size: 2.5rem;
     margin-bottom: 10px;
   }
   
   h2 {
-    font-size: 1.4rem;
-    color: #1d4ed8;
     margin-top: 30px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #93c5fd;
-    padding-bottom: 4px;
+    font-size: 1.8rem;
   }
   
-  /* Paragraphs and Lists */
-  p {
-    margin-bottom: 12px;
-    color: #374151;
+  p, li {
+    font-size: 1rem;
+    line-height: 1.6;
   }
   
   ul {
     padding-left: 20px;
-    color: #374151;
   }
   
-  ul li {
-    margin-bottom: 8px;
+  a {
+    color: #0066cc;
+    text-decoration: none;
   }
   
-  /* Section Spacing */
-  section {
-    margin-bottom: 30px;
+  a:hover {
+    text-decoration: underline;
   }
   
