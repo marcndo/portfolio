@@ -1,161 +1,433 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marcel Ndowah | ML & AI Engineer</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-  <nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Marcel Ndowah — Python developer, open-source contributor, and former technical support engineer. Explore engineering projects and contributions.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Marcel Ndowah | Python Developer</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --surface: #121d30;
+      --border: #263449;
+      --text: #f1f5f9;
+      --muted: #a6b5c8;
+      --accent: #7dd3fc;
+      --max: 1060px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.7 system-ui, -apple-system,
+            BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+    .container {
+      width: min(100% - 40px, var(--max));
+      margin: auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+    }
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .brand { font-weight: 750; color: var(--text); }
+    nav { display: flex; flex-wrap: wrap; gap: 22px; }
+    nav a { color: var(--muted); font-size: .9rem; }
+    nav a:hover { color: var(--text); }
+    .hero { padding: 100px 0 90px; max-width: 790px; }
+    .eyebrow {
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 750;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 { line-height: 1.2; }
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.4rem);
+      letter-spacing: -.045em;
+      margin: 18px 0 22px;
+    }
+    h2 {
+      font-size: clamp(1.6rem, 3vw, 2.1rem);
+      letter-spacing: -.025em;
+      margin: 0 0 14px;
+    }
+    h3 { font-size: 1.15rem; margin: 0 0 12px; }
+    p { margin: 0 0 16px; }
+    .lead { font-size: 1.13rem; color: var(--muted); }
+    .muted { color: var(--muted); }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+    .button {
+      display: inline-block;
+      padding: 11px 19px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-weight: 650;
+      font-size: .9rem;
+    }
+    .button.primary {
+      background: var(--accent);
+      color: #082033;
+      border-color: var(--accent);
+    }
+    .button:hover {
+      text-decoration: none;
+      filter: brightness(1.1);
+    }
+    section { padding: 65px 0; border-top: 1px solid var(--border); }
+    .section-intro {
+      color: var(--muted);
+      max-width: 720px;
+      margin-bottom: 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 26px;
+      min-width: 0;
+    }
+    .card p { color: var(--muted); font-size: .95rem; }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 3px 10px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--muted);
+      font-size: .75rem;
+      margin: 0 5px 7px 0;
+    }
+    .pr-list { list-style: none; padding: 0; margin: 20px 0 0; }
+    .pr-list li {
+      padding: 12px 0;
+      border-top: 1px solid var(--border);
+    }
+    .pr-list a { font-weight: 600; }
+    .pr-list small { display: block; color: var(--muted); }
+    .project-links { margin-top: 20px; }
+    .project-links a { margin-right: 18px; font-weight: 650; }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 45px;
+    }
+    .detail { margin-bottom: 24px; }
+    .detail strong { display: block; margin-bottom: 5px; }
+    .detail span { color: var(--muted); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 30px 0;
+      color: var(--muted);
+      font-size: .85rem;
+    }
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    @media (max-width: 700px) {
+      .hero { padding: 70px 0; }
+      .grid, .about-grid { grid-template-columns: 1fr; }
+      .card { padding: 21px; }
+      section { padding: 48px 0; }
+      nav { gap: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home">Marcel Ndowah</a>
+      <nav aria-label="Main navigation">
+        <a href="#contributions">Contributions</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
     <div class="container">
-      <h1>Ndowah Marcel Ambo</h1>
-      <p>ML/AI Engineer | Python · PyTorch · LangChain · FastAPI
-Building end-to-end ML systems — from data pipelines to deployed APIs</p>
-      <p>IBM Certified in Machine Learning & Generative AI | Contributor at OCaml API Diff | Former Tech Support Engineer at SolarWinds</p>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          I'm a Machine Learning and Generative AI Engineer building intelligent, data-driven solutions. With a BSc in Mathematics (2020)
-           and IBM certifications in both ML and Generative AI, I specialize in developing LLM-powered agents, recommendation engines, 
-           and document summarizers. My commitment to robust, user-focused AI systems is demonstrated through active contributions to high-impact 
-           open-source projects like Hugging Face Transformers. Previously, as a Technical Support Engineer, I honed strong debugging, problem-solving, 
-           and client communication skills, which now directly inform my thoughtful engineering approach and collaborative open-source work.
+      <div class="hero" id="home">
+        <div class="eyebrow">
+          Python Developer · Open-Source Contributor
+        </div>
+        <h1>Building reliable software through thoughtful engineering.</h1>
+        <p class="lead">
+          I'm a mathematics graduate and former Technical Support
+          Engineer at SolarWinds, developing my expertise in Python
+          backend engineering, software testing, and open-source
+          development.
         </p>
-<section id="skills">
-  <h2>Skills</h2>
+        <p class="muted">
+          My background combines debugging, root-cause analysis,
+          technical documentation, and hands-on software development.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#contributions">
+            Explore my work
+          </a>
+          <a class="button" href="https://github.com/marcndo"
+             target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+          <a class="button" href="https://www.linkedin.com/in/marcelndowah/"
+             target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+        </div>
+      </div>
 
-  <div class="skills-grid">
-
-```
-<div class="skill-card">
-  <h3>Core Stack</h3>
-  <div class="badges">
-    <span>Python</span>
-    <span>scikit-learn</span>
-    <span>XGBoost</span>
-    <span>PyTorch</span>
-    <span>LangChain</span>
-    <span>FastAPI</span>
-    <span>Docker</span>
-    <span>PostgreSQL</span>
-  </div>
-</div>
-
-<div class="skill-card">
-  <h3>ML Engineering</h3>
-  <div class="badges">
-    <span>Supervised Learning</span>
-    <span>Feature Engineering</span>
-    <span>Model Evaluation</span>
-    <span>Pipeline Design</span>
-    <span>REST API Serving</span>
-    <span>Experiment Tracking</span>
-  </div>
-</div>
-
-<div class="skill-card">
-  <h3>LLM Engineering</h3>
-  <div class="badges">
-    <span>RAG Systems</span>
-    <span>AI Agents</span>
-    <span>Tool Calling</span>
-    <span>Prompt Engineering</span>
-    <span>Vector Databases</span>
-    <span>ChromaDB</span>
-  </div>
-</div>
-
-<div class="skill-card">
-  <h3>Tools</h3>
-  <div class="badges">
-    <span>Git</span>
-    <span>GitHub</span>
-    <span>GitHub Actions</span>
-    <span>Docker</span>
-    <span>Pytest</span>
-    <span>VS Code</span>
-    <span>Jupyter</span>
-  </div>
-</div>
-```
-
-  </div>
-</section>
-
-
-      <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-          <li>Google/Kaggle 5-Day Intensive GenAI Bootcamp – April 2025</li>
-          <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7320549679216123904/" target="_blank">Google/Kaggle 5-Day Intensive GenAI Bootcamp – April 2025</a></li>
-          <li><a href="https://coursera.org/share/e334910b501211e96a62f42514c17c76" target="_blank">IBM Generative AI Professional Certificate – Dec 2024</a></li>
-          <li><a href="https://coursera.org/share/79706fbe638eb5734fb8c6db05bd2ec5" target="_blank">IBM Machine Learning Professional Certificate – June 2024</a></li>
-        </ul>
+      <section id="contributions">
+        <h2>Open-Source Contributions</h2>
+        <p class="section-intro">
+          Contributions to established open-source projects.
+          Each pull request links directly to the original work,
+          including changes and review history.
+        </p>
+        <div class="grid" id="contribution-grid"></div>
       </section>
+
       <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <strong>House Price Prediction </strong><br />
-            A regression model predicting housing prices using sklearn pipeline & EDA.<br />
-            🔗 <a href="https://github.com/marcndo/ml_foundation/blob/main/SupervisedML/regression/melbourne_data_model_analysis.ipynb" target="_blank">GitHub Repo</a> |
-            🔗 <a href="https://huggingface.co/spaces/marcndo/ndowahmarcel-house-price-predictor" target="_blank">Demo UI</a>
-          </li>
-          <li>
-            <strong>AI-Powered Resume App</strong><br />
-            A web application that leverages GenAI to generate, analyze, and enhance professional resumes using user inputs and LLMs.<br />
-            🔗 <a href="https://github.com/marcndo/ml_foundation/tree/main/ai/resume-parser/resume_skill_extractor" target="_blank">GitHub Repo</a> |
-            🔗 <a href="https://marcndo-resume-analyzer-groq.hf.space/?__theme=system&deep_link=UoLDIusr4Ks" target="_blank">Live Demo</a>
-          <li>
-            <strong>Coursera Course Recommender (In Progress)</strong><br />
-            Built with collaborative filtering and NLP to recommend online learning paths.<br />
-            🔗 <a href="https://github.com/marcndo/coursera-recommender" target="_blank">GitHub Repo</a> |
-            🔗 <a href="#" target="_blank">Demo UI (Coming Soon)</a>
-          </li>
-        </ul>
-        <section id="professional-experience">
-  <h2>Professional Experience</h2>
-  <ul>
-    <li><strong>Hugging Face Transformers Contributor</strong> – Independent Open Source (Ongoing):
-      <ul>
-        <li>Actively contributing to the <strong>Transformers</strong> library, focusing on fixing documentation bugs, updating outdated references, and improving docstring clarity across models and processors.</li>
-        <li>Enhancing code quality by refactoring deprecated elements and aligning implementations with evolving API standards (e.g., <code>as_target_processor()</code> deprecation for <code>Wav2Vec2Processor</code>).</li>
-        <li>Collaborating through GitHub issues, pull requests, and reviews to maintain high standards in readability, usability, and consistency across the codebase.</li>
-        <li>
-          Contributions successfully <strong>merged</strong> and visible in production, including:
-          <a href="https://github.com/huggingface/transformers/pull/38642" target="_blank">PR #38642</a>.
-        </li>
-      </ul>
-    </li>
-    <li><strong>OCaml API Diff Project Contributor</strong> as part of the <strong>Outreachy program</strong>:
-      <ul>
-        <li>Enhanced the OCaml API by adding detection for class additions and deletions.</li>
-        <li>Implemented <strong>CRAM</strong> and developed unit tests for end-to-end testing.</li>
-        <li>Contributions were successfully merged and are now live in production.</li>
-      </ul>
-    </li>
-    <li><strong>Technical Support Engineer</strong> for the <strong>SolarWinds project</strong>:
-      <ul>
-        <li>Gained hands-on experience in troubleshooting, problem-solving, and client communication.</li>
-        <li>Worked closely with the development team to ensure smooth project delivery.</li>
-        <li>Maintained high client satisfaction during the 1 year and 2 months tenure.</li>
-      </ul>
-    </li>
-  </ul>
-</section>
+        <h2>Engineering Projects</h2>
+        <p class="section-intro">
+          Selected projects documenting my experience with backend
+          development, automated testing, and algorithmic problem-solving.
+        </p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Library Management System</h3>
+            <p>
+              An AI-assisted backend learning project exploring
+              library operations, persistence, authentication,
+              and automated testing. I'm using this project
+              to strengthen my independent engineering skills.
+            </p>
+            <div>
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">SQLAlchemy</span>
+              <span class="tag">pytest</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/marcndo/library-system"
+                 target="_blank" rel="noopener noreferrer">
+                View repository ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Algorithmic Problem Solving</h3>
+            <p>
+              A collection of Python solutions focused on understanding
+              data structures, deriving algorithms, analyzing complexity,
+              and practicing independent problem-solving.
+            </p>
+            <div>
+              <span class="tag">Python</span>
+              <span class="tag">Algorithms</span>
+              <span class="tag">Data Structures</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/marcndo/algorithmic-problem-solving"
+                 target="_blank" rel="noopener noreferrer">
+                View repository ↗
+              </a>
+            </div>
+          </article>
+        </div>
       </section>
+
+      <section id="about">
+        <h2>Background</h2>
+        <div class="about-grid">
+          <div>
+            <p>
+              I hold a BSc in Mathematics from the University of Buea.
+              My mathematical training informs my interest in algorithmic
+              reasoning, software correctness, and systematic
+              problem-solving.
+            </p>
+            <p>
+              Previously, I worked as a Technical Support Engineer at
+              SolarWinds, investigating customer-reported issues with
+              Network Performance Monitor (NPM) and Server & Application
+              Monitor (SAM).
+            </p>
+            <p>
+              I'm currently developing my Python engineering skills
+              through projects, algorithm practice, and open-source
+              collaboration. My focus is on building reliable software
+              and learning from experienced engineering teams.
+            </p>
+          </div>
+          <div>
+            <div class="detail">
+              <strong>Technical focus</strong>
+              <span>Python, backend development, testing, Linux,
+                debugging, and root-cause analysis</span>
+            </div>
+            <div class="detail">
+              <strong>Education</strong>
+              <span>BSc Mathematics — University of Buea</span>
+            </div>
+            <div class="detail">
+              <strong>Professional experience</strong>
+              <span>15 months — Technical Support Engineer,
+                SolarWinds</span>
+            </div>
+            <div class="detail">
+              <strong>Current interests</strong>
+              <span>Software reliability, cloud infrastructure,
+                and open-source engineering</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: ndowahmarcel@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/marcndo" target="_blank">github.com/marcndo</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/marcelndowah" target="_blank">linkedin.com/in/marcelndowah</a></p>
+        <h2>Let's connect</h2>
+        <p class="section-intro">
+          I'm interested in Python engineering opportunities,
+          open-source collaboration, and technical discussions
+          with engineers building reliable software.
+        </p>
+        <div class="actions">
+          <a class="button primary"
+             href="mailto:ndowahmarcel@gmail.com">
+            Email me
+          </a>
+          <a class="button"
+             href="https://www.linkedin.com/in/marcelndowah/"
+             target="_blank" rel="noopener noreferrer">
+            Connect on LinkedIn ↗
+          </a>
+          <a class="button"
+             href="https://github.com/marcndo"
+             target="_blank" rel="noopener noreferrer">
+            Explore GitHub ↗
+          </a>
+        </div>
       </section>
     </div>
-  </body>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Marcel Ndowah</span>
+      <span>Built with HTML, CSS, and JavaScript · Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    // Edit this array when you have a new contribution.
+    // Titles and descriptions can be added after verifying PR details.
+    const contributions = [
+      {
+        project: "Hugging Face Transformers",
+        description: "Contributions to an established machine learning software library.",
+        prs: [
+          { number: 43132, url: "https://github.com/huggingface/transformers/pull/43132" },
+          { number: 39019, url: "https://github.com/huggingface/transformers/pull/39019" },
+          { number: 38954, url: "https://github.com/huggingface/transformers/pull/38954" },
+          { number: 38642, url: "https://github.com/huggingface/transformers/pull/38642" }
+        ]
+      },
+      {
+        project: "OCaml API Watch",
+        description: "Contribution to open-source tooling in the OCaml ecosystem.",
+        prs: [
+          { number: 90, url: "https://github.com/ocaml-semver/ocaml-api-watch/pull/90" }
+        ]
+      }
+    ];
+
+    const grid = document.getElementById("contribution-grid");
+
+    contributions.forEach(group => {
+      const card = document.createElement("article");
+      card.className = "card";
+
+      const heading = document.createElement("h3");
+      heading.textContent = group.project;
+      card.appendChild(heading);
+
+      const description = document.createElement("p");
+      description.textContent = group.description;
+      card.appendChild(description);
+
+      const list = document.createElement("ul");
+      list.className = "pr-list";
+
+      group.prs.forEach(pr => {
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+
+        link.href = pr.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = pr.title || `Pull Request #${pr.number}`;
+
+        item.appendChild(link);
+
+        if (pr.summary) {
+          const summary = document.createElement("small");
+          summary.textContent = pr.summary;
+          item.appendChild(summary);
+        }
+
+        list.appendChild(item);
+      });
+
+      card.appendChild(list);
+      grid.appendChild(card);
+    });
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
 </html>
